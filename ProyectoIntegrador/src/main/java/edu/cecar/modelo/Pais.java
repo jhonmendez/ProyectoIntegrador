@@ -63,6 +63,11 @@ public class Pais {
 		this.continente = continente;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Nombre : " + nombre + "\nCapital:  " + capital + "\nContinente " +continente + "\n";
+	}
 
 }
 
